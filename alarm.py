@@ -115,7 +115,7 @@ time_frame.pack(pady=10)
 
 time_entry = tk.Entry(time_frame, font=("Segoe UI", 16), width=15, justify="center",
                       bg="#1E1E1E", fg="#757575", relief="flat")
-time_entry.insert(0, "HH:MM:SS")
+time_entry.insert(0, " ")
 time_entry.pack(side="left", ipady=10, ipadx=10)
 
 ampm = ttk.Combobox(time_frame, values=["AM", "PM"], width=5, font=("Segoe UI", 12))

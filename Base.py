@@ -14,7 +14,7 @@ def set_alarm(alarm_time, sound_file):
 
             if not os.path.exists(sound_file):
                 print("⚠️ Alarm sound file not found! Using default 'a.mp3'")
-                sound_file = "a.mp3"
+                sound_file = "sample1.mp3"
 
             pygame.mixer.music.load(sound_file)
             pygame.mixer.music.play()
